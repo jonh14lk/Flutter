@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:link/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 Widget pict(text) {
   return Stack(
@@ -90,14 +90,18 @@ Widget bar(text) {
   );
 }
 
-Widget botao(text, text2) {
+_launchURL() async {
+  const url = 'https://github.com/jonh14lk';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+Widget botao(text) {
   return OutlineButton(
-    onPressed: () {
-      Link(
-        child: Text(text),
-        url: 'text2',
-      );
-    },
+    onPressed: _launchURL,
     child: Text(text),
     textColor: Colors.red[600],
   );

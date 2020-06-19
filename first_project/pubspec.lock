@@ -65,13 +65,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  link:
-    dependency: "direct main"
-    description:
-      name: link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0"
   matcher:
     dependency: transitive
     description:
@@ -169,7 +162,7 @@ packages:
     source: hosted
     version: "1.1.6"
   url_launcher:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: url_launcher
       url: "https://pub.dartlang.org"

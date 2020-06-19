@@ -31,7 +31,7 @@ void main() {
               email('jvaaa@ic.ufal.br'),
             ]),
       ),
-      floatingActionButton: botao('Meu Github', 'https://github.com/jonh14lk'),
+      floatingActionButton: botao('Meu Github'),
     ),
   ));
 }
