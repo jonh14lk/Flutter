@@ -4,7 +4,8 @@ A music player application made in flutter
 
 ## Getting Started
 
-![GitHub Logo](https://raw.githubusercontent.com/jonh14lk/Flutter/master/music_player/assets/print2.jpeg)
+<img src="https://raw.githubusercontent.com/jonh14lk/Flutter/master/music_player/assets/print2.jpeg" width="48" height="100" />
 
-![GitHub Logo](https://raw.githubusercontent.com/jonh14lk/Flutter/master/music_player/assets/print.jpeg)
+
+<img src="https://raw.githubusercontent.com/jonh14lk/Flutter/master/music_player/assets/print.jpeg" width="48" height="100" />
 
